@@ -12,3 +12,11 @@ La estrategia incluye:
 1. Clonar el repositorio y posicionarse en la rama `develop`.
 2. Ejecutar pruebas unitarias locales: `mvn clean test`
 3. El archivo `Jenkinsfile` contiene la declaración del pipeline y está listo para ser consumido por un servidor CI/CD.
+
+## Evidencias
+
+**Ejecución de build y pruebas automatizadas:**
+![Ejecución exitosa de Maven](img/exito-pruebas.png)
+
+**Despliegue Blue-Green y mecanismo de Rollback:**
+![Despliegue y Rollback](img/despliegue.png)
